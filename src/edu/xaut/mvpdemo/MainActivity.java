@@ -1,20 +1,15 @@
 package edu.xaut.mvpdemo;
 
-import edu.xaut.mvpdemo.bean.UserBean;
-import edu.xaut.mvpdemo.presenter.UserLoginPresenter;
-import edu.xaut.mvpdemo.view.IUserLoginView;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.support.v7.app.ActionBarActivity;
-import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
+import edu.xaut.mvpdemo.bean.UserBean;
+import edu.xaut.mvpdemo.presenter.UserLoginPresenter;
+import edu.xaut.mvpdemo.view.IUserLoginView;
 
 public class MainActivity extends ActionBarActivity implements IUserLoginView {
 
